@@ -8,6 +8,7 @@
 ## Features
 - Parse XML spectrum files from RadiaCode.
 - Display and plot spectra.
+- You can change all colors and important settings in the config.ini
 
 ## To-Do List:
 
