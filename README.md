@@ -8,7 +8,7 @@
 ## Features
 - Parse XML spectrum files from RadiaCode.
 - Display and plot spectra.
-- Including crystal efficiency/energy compensated plot 
+- Including crystal efficiency/energy compensated plot for RadiaCode 101-103 (withoug G)
 - You can change all colors and important settings in the config.ini
   
 
