@@ -12,6 +12,5 @@
 - You can change all colors and important settings in the config.ini
   
 
-## To-Do List:
-
- - Isotope identification
+## Sourcecode
+- The full source code to this project will be in this repository, as soon as it leaves the beta.
