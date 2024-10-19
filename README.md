@@ -6,12 +6,6 @@ While in beta: https://sourceforge.net/projects/radiacode-spectrum-viewer/
 
 It's a hobby project to learn Python / PySide.
 
-![Program Screenshot](/screenshot-0.99.2-1.png?raw=true)
-![Program Screenshot](/screenshot-0.99.2-2.png?raw=true)
-![Program Screenshot](/screenshot-0.99.2-3.png?raw=true)
-![Program Screenshot](/screenshot-0.99.2-4.png?raw=true)
-
-
 ## Features
 - Parse XML spectrum files from RadiaCode.
 - Display the XML data
@@ -23,6 +17,11 @@ It's a hobby project to learn Python / PySide.
 - Choose what plots to show/hide
 - Black on white plot for printing
 - Colors and some other things customizable in config.ini file
+
+![Program Screenshot](/screenshot-0.99.2-1.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-2.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-3.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-4.png?raw=true)
 
 ## To-Do List (not complete):
 - Isotope recognition
