@@ -6,10 +6,10 @@ While in beta: https://sourceforge.net/projects/radiacode-spectrum-viewer/
 
 It's a hobby project to learn Python / PySide.
 
-![Program Screenshot](/screenshot-0.99.1.png?raw=true)
-![Program Screenshot](/screenshot-0.99.2.png?raw=true)
-![Program Screenshot](/screenshot-0.99.3.png?raw=true)
-![Program Screenshot](/screenshot-0.99.4.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-1.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-2.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-3.png?raw=true)
+![Program Screenshot](/screenshot-0.99.2-4.png?raw=true)
 
 
 ## Features
