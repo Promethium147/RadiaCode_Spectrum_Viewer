@@ -1,0 +1,224 @@
+QWidget {
+    background-color: {{app_bg_color}};
+    }
+QLabel {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+QLabel#counts_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#counts_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#cps_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#cps_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#duration_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#duration_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#start_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#start_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#end_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#end_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#device_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#device_label {
+    font-size: 12px;
+    color: {{label_color}};
+    padding-bottom: 15px;
+    }
+QLabel#serial_value_label {
+    font-size: 16px;
+    color: {{label_value_color}};
+    }
+QLabel#serial_label {
+    font-size: 12px;
+    color: {{label_color}};
+    margin-bottom: 15px;
+    }
+QCheckBox {
+    font-size: 14px;
+    color: {{checkbox_label_color}};
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+QCheckBox#original_plot_checkbox{
+    color: {{original_plot_checkbox_color}};
+    }
+QCheckBox#compensated_plot_checkbox {
+    color: {{compensated_plot_checkbox_color}};
+    }
+QCheckBox#original_bg_plot_checkbox {
+    color: {{original_bg_plot_checkbox_color}};
+    }
+QCheckBox#compensated_bg_plot_checkbox {
+    color: {{compensated_bg_plot_checkbox_color}};
+    }
+QPushButton {
+    background-color: {{button_bg_color}};
+    border-radius: 5px;
+    color: {{button_text_color}};
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid {{button_border_color}};
+    }
+QPushButton:disabled {
+    background-color: {{button_bg_color_disabled}};
+    color: {{button_text_color_disabled}};
+    border: 1px solid {{button_border_color_disabled}};
+}
+QPushButton:hover {
+    color: {{button_text_color_hover}};
+    background-color: {{button_bg_color_hover}};
+    border: 1px solid {{button_border_color_hover}};
+    }
+QPushButton:pressed {
+    color: {{button_text_color_pressed}};
+    background-color: {{button_bg_color_pressed}};
+    border: 1px solid {{button_border_color_pressed}};
+    }
+QFileDialog {
+    background-color: {{label_color}};
+    color: {{app_bg_color}};
+    }
+QCheckBox#black_on_white_plot_checkbox {
+    padding-bottom: 15px;
+    }
+
+QLabel#min_smoothing_label {
+    color: {{label_color}};
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    }
+QSlider#min_smoothing_slider {
+    color: {{slider_color}};
+    padding-bottom: 15px;
+    }
+QLabel#max_smoothing_label {
+    color: {{label_color}};
+    font-size: 14px;
+    padding-bottom: 0px;
+    }
+QSlider#max_smoothing_slider {
+    color: {{slider_color}};
+    padding-bottom: 10px;
+    }
+QLabel#peak_detection_label {
+    color: {{section_label_color}};
+    font-size: 16px;
+    padding-top: 10px;
+    }
+QLabel#min_height_label {
+    color: {{label_color}};
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    }
+QSlider#min_height_slider {
+    color: {{slider_color}};
+    padding-bottom: 10px;
+    }
+QLabel#prominence_label {
+    color: {{label_color}};
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    }
+QSlider#prominence_slider {
+    color: {{slider_color}};
+    padding-bottom: 10px;
+    }
+QLabel#distance_label {
+    color: {{label_color}};
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    }
+QSlider#distance_slider {
+    color: {{slider_color}};
+    padding-bottom: 15px;
+    }
+QSlider::groove:horizontal {
+    background-color: {{slider_groove_color}};
+    height: 2px;
+    border-radius: 2px;
+}
+QSlider::handle:horizontal {
+    background-color: {{slider_handle_color}};
+    width: 12px;
+    height: 12px;
+    margin: -6px 0;
+    border-radius: 4px;
+}
+QCheckBox:indicator {
+    width: 15px;
+    height: 15px;
+    }
+QCheckBox::indicator:disabled {
+    background-color: transparent;
+    border: 1px solid {{checkbox_square_color_disabled}};
+}
+QCheckBox::indicator:unchecked {
+    background-color: transparent;
+    border: 1px solid {{checkbox_square_color}};
+    }
+QCheckBox::indicator:checked {
+    background-color: transparent;
+    image: url(icon_checked.png);
+    border: 1px solid {{checkbox_square_color}};
+    }
+QLabel#theme_setting_checkbox {
+    color: {{checkbox_color}};
+    padding-bottom: 15px;
+    }
+QComboBox QAbstractItemView {
+    background-color: {{app_bg_color}};
+    color: {{label_color}};
+    selection-background-color: {{app_bg_color}};
+    selection-color: {{label_color}};
+}
+QCheckBox#peak_detection_checkbox {
+    color: {{section_label_color}};
+    }
+QFrame {
+    background-color: {{app_bg_color}};
+    color: {{section_line_color}};
+    }
+}

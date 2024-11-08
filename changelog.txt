@@ -1,0 +1,35 @@
+0.99.3:
+--------------------
+* Inactive buttons and checkboxes are visually different now (you can change those colors too)
+* Fixed a bug, where the checkboxes to show/hide the background plots stayed inactive,
+    if the background was in the same file as the foreground
+* Additional entries in About
+* Changed license to CC-BY-NC-SA, as the free version of PySide6 doesn't allow commercial use.
+* Removed dead entries in the config
+
+0.99.2:
+--------------------
+* You can now show and subtract a background spectrum, both in original and compensated.
+* Removed persistent, but dynamic status of show/hide individual plots at startup,
+    as it saves a massive amounts of file read/write operations that would
+     be necessary with the background functionality and also adds stability and speed.
+     You can still show or hide it permanently at startup, it moved to "Settings".
+* Several optimisations of the code
+
+0.99.1:
+--------------------
+* Switched from Pyinstaller to Nuitka, as pyinstaller created false positive virus warnings,
+ because of the way it works. That's why the app folder now looks differently.
+* New logo instead of the temporary one(s).
+* Added contact mail in the About-box for suggestions, constructive critics and bug reports.
+* Links in the About-box are now clickable.
+* Changed the way how negative energy values are handled.
+* Removed settings for energy offset and cutoff in the config file.
+* Spectra from RC101, RC102 and RC103 now get a warning if the coefficient a0 is smaller than -20.
+* Spectra from RC103G now get a warning if the coefficient a0 is smaller than 0.
+* Spectra from any RC device now get a warning if the coefficient a0 is greater than 30.
+* This warnings will be missed or wrong, if the serial number in the XML file is empty or altered.
+* Removed 2 relics from the config file.
+* Removed the sound at opening of the About-box.
+
+
